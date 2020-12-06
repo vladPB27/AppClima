@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="162dp"
+        android:text="@string/texto_grados"
+        android:textSize="72sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtCiudad"
+        android:layout_width="251dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="75dp"
+        android:text="@string/texto_ciudad"
+        android:textColor="@color/design_default_color_surface"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="161dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/txtCiudad"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="274dp"
+        android:text="@string/texto_status"
+        android:textColor="@color/teal_700"
+        android:textSize="36sp"
+        android:gravity="center"/>
+</RelativeLayout>

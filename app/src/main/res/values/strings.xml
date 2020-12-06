@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppClima</string>
+    <string name="texto_grados">9°</string>
+    <string name="texto_ciudad">Ciudad del Cusco</string>
+    <string name="texto_status">Nublado</string>
+    <string name="texto_bienvenida">Bienvenidos a mi aplicacion de clima</string>
+</resources>
