@@ -3,5 +3,5 @@
     <string name="texto_grados">9°</string>
     <string name="texto_ciudad">Ciudad del Cusco</string>
     <string name="texto_status">Nublado</string>
-    <string name="texto_bienvenida">Bienvenidos a mi aplicacion de clima</string>
+    <string name="texto_bienvenida">Bienvenidos a mi aplicación de clima</string>
 </resources>
