@@ -38,18 +38,18 @@
 
     <TextView
         android:id="@+id/txtStatus"
-        android:layout_width="161dp"
-        android:layout_height="88dp"
+        android:layout_width="183dp"
+        android:layout_height="72dp"
         android:layout_below="@+id/txtCiudad"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="124dp"
+        android:layout_marginStart="103dp"
         android:layout_marginTop="81dp"
         android:layout_marginEnd="125dp"
-        android:layout_marginBottom="274dp"
+        android:layout_marginBottom="249dp"
+        android:gravity="center"
         android:text="@string/texto_status"
         android:textColor="@color/teal_700"
-        android:textSize="36sp"
-        android:gravity="center"/>
+        android:textSize="36sp" />
 </RelativeLayout>

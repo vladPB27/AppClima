@@ -4,29 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ciudades"
+    android:background="@color/teal_200"
     android:orientation="vertical"
-    android:background="@color/teal_200">
+    tools:context=".Ciudades">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/texto_bienvenida"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="30dp"
-        android:textSize="22dp"
+        android:text="@string/texto_bienvenida"
+        android:textAlignment="center"
         android:textColor="@color/purple_700"
-        android:textAlignment="center"/>
+        android:textSize="22dp" />
 
     <Button
         android:id="@+id/btnCusco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
         android:text="Clima de Cusco" />
+
     <Button
         android:id="@+id/btnLima"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
         android:text="Clima de Lima" />
+
+    <Button
+        android:id="@+id/btnAboutMe"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="About Me"
+        android:textSize="10sp" />
 </LinearLayout>
