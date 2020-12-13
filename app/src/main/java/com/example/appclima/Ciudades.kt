@@ -9,6 +9,9 @@ import android.widget.Toast
 import java.io.BufferedReader
 
 class Ciudades : AppCompatActivity() {
+
+    val TAG = "com.vidammr.appclima.ciudades.CIUDAD"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ciudades)
@@ -16,13 +19,14 @@ class Ciudades : AppCompatActivity() {
         //acceder a los botones de las ciudades
         val btnCusco = findViewById<Button>(R.id.btnCusco)
         val btnLima = findViewById<Button>(R.id.btnLima)
-        val botonAboutMe = findViewById<Button>(R.id.btnAboutMe)
+//        val botonAboutMe = findViewById<Button>(R.id.btnAboutMe)
 
         btnCusco.setOnClickListener(View.OnClickListener {
 //            Toast.makeText(this, "Clima de cusco seleccionado", Toast.LENGTH_SHORT).show()
 
             //intent  para ir a la pagina MainActivity con el boton
             val intent = Intent(this,MainActivity::class.java)
+            intent.putExtra(TAG,"ciudad-cusco")
             startActivity(intent)
         })
         btnLima.setOnClickListener(View.OnClickListener {
@@ -30,6 +34,7 @@ class Ciudades : AppCompatActivity() {
 
             //intent  para ir a la pagina MainActivity con el boton
             val intent = Intent(this,MainActivity::class.java)
+            intent.putExtra(TAG,"ciudad-lima")
             startActivity(intent)
         })
 
